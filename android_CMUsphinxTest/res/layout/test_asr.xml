@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    
+
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:textSize="12sp"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/testFile" />
+
+    <EditText
+        android:id="@+id/edittestFilePath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/editTestFileName"
+        android:layout_below="@+id/textView1"
+        android:text="@string/testFilePath"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/edittestFilePath"
+        android:text="@string/testFileName"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/editTestFileName"
+        android:textSize="12sp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView2" 
+        android:text="test.xml"/>
+    
+    
+    
+    
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/editTestFileName"
+        android:text="@string/keyWordFile" />
+
+    <EditText
+        android:id="@+id/editGramFilePath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/editTestFileName"
+        android:layout_below="@+id/textView3"
+        android:text="@string/keyWordFilePath"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/editGramFilePath"
+        android:text="@string/keyWordFileName" />
+
+     <EditText
+         android:id="@+id/editGramFileName"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/textView4"
+         android:layout_alignRight="@+id/keyWordFilePath"
+         android:layout_below="@+id/textView4"
+         android:textSize="12sp"
+         android:text="commond_52.txt" >
+
+    </EditText>
+    
+     
+     
+     
+    
+    
+    
+    
+    <TextView
+        android:id="@+id/textView5"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editGramFileName"
+        android:layout_alignLeft="@+id/editTextResult"
+        android:text="@string/testFileResult" />
+
+    <EditText
+        android:id="@+id/editTextResult"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:layout_below="@+id/textView5"
+        android:ems="10"
+        android:inputType="none"
+        android:textSize="12sp" />
+   
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="6dp"
+        android:orientation="horizontal" >
+        
+        <Button
+            android:id="@+id/Button_test"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onTestFileButtonClicked"
+            android:text="testFile" />
+    </LinearLayout>
+
+    
+
+</RelativeLayout>

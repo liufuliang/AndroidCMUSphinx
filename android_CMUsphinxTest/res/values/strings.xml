@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hello">Hello World, PocketSphinxDemo!</string>
+    <string name="app_name">PocketSphinx Demo</string>
+<color name="white">#FFF</color>
+<string name="performance_text">0.00 seconds 0.00 xRT</string>
+<string name="text_en_asr">
+hello\n
+how are you\n
+hi\n
+good night\n
+good morning\n
+good afternoon\n
+i am fine\n
+thanks\n
+nice to meet you\n
+how do you do
+</string>
+
+<string name="testFilePath">/storage/sdcard0/Android/data/edu.cmu.pocketsphinx/android_test/</string>
+<string name="keyWordFilePath">/storage/sdcard0/Android/data/edu.cmu.pocketsphinx/android_test/</string>
+
+	<string name="testFile">测试文件路径:</string>
+	<string name="testFileName">测试文件名:</string>
+	<string name="testFileResult">测试结果:</string>
+	
+	<string name="keyWordFile">语法文件路径</string>
+	<string name="keyWordFileName">语法文件名</string>
+</resources>

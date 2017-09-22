@@ -1,0 +1,243 @@
+acmod.lo: acmod.c /usr/include/assert.h /usr/include/_ansi.h \
+ /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/string.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/machine/_default_types.h \
+ /usr/include/sys/lock.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.8.1/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.8.1/include-fixed/sys/cdefs.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.8.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h \
+ /usr/include/sys/string.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/prim_type.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinx_config.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/err.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.8.1/include/stdarg.h \
+ /usr/include/stdio.h /usr/include/sys/types.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h \
+ /usr/include/errno.h /usr/include/sys/errno.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/sphinxbase_export.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/cmd_ln.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/strfuncs.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/byteorder.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/feat.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/fe.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/fixpoint.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.8.1/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.8.1/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/features.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/cmn.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/agc.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/bio.h \
+ ../../include/cmdln_macro.h acmod.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/logmath.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/bitvec.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/ckd_alloc.h \
+ /usr/include/stdlib.h /usr/include/machine/stdlib.h \
+ /usr/include/alloca.h /usr/include/cygwin/stdlib.h \
+ /usr/include/cygwin/wait.h /usr/include/setjmp.h \
+ /usr/include/machine/setjmp.h /usr/include/signal.h \
+ /usr/include/sys/signal.h /usr/include/cygwin/signal.h \
+ ../../include/ps_mllr.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/ngram_model.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/mmio.h \
+ ../../include/pocketsphinx_export.h bin_mdef.h mdef.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/hash_table.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/glist.h \
+ tmat.h hmm.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/listelem_alloc.h \
+ s2_semi_mgau.h ms_gauden.h vector.h pocketsphinx_internal.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/profile.h \
+ ../../include/pocketsphinx.h ../../include/ps_lattice.h \
+ ../../include/fsg_set.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/fsg_model.h \
+ /cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/jsgf.h \
+ dict.h s3types.h /usr/lib/gcc/x86_64-pc-cygwin/4.8.1/include/float.h \
+ dict2pid.h ptm_mgau.h ms_mgau.h ms_senone.h
+
+/usr/include/assert.h:
+
+/usr/include/_ansi.h:
+
+/usr/include/newlib.h:
+
+/usr/include/sys/config.h:
+
+/usr/include/machine/ieeefp.h:
+
+/usr/include/sys/features.h:
+
+/usr/include/cygwin/config.h:
+
+/usr/include/string.h:
+
+/usr/include/sys/reent.h:
+
+/usr/include/_ansi.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/machine/_default_types.h:
+
+/usr/include/sys/lock.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/4.8.1/include/stddef.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/4.8.1/include-fixed/sys/cdefs.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/4.8.1/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/sys/string.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/prim_type.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinx_config.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/err.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/4.8.1/include/stdarg.h:
+
+/usr/include/stdio.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/cygwin/types.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/byteswap.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/sys/stdio.h:
+
+/usr/include/errno.h:
+
+/usr/include/sys/errno.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/sphinxbase_export.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/cmd_ln.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/strfuncs.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/byteorder.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/feat.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/fe.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/fixpoint.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/4.8.1/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/4.8.1/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/features.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/cmn.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/agc.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/bio.h:
+
+../../include/cmdln_macro.h:
+
+acmod.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/logmath.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/bitvec.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/ckd_alloc.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/machine/stdlib.h:
+
+/usr/include/alloca.h:
+
+/usr/include/cygwin/stdlib.h:
+
+/usr/include/cygwin/wait.h:
+
+/usr/include/setjmp.h:
+
+/usr/include/machine/setjmp.h:
+
+/usr/include/signal.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/cygwin/signal.h:
+
+../../include/ps_mllr.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/ngram_model.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/mmio.h:
+
+../../include/pocketsphinx_export.h:
+
+bin_mdef.h:
+
+mdef.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/hash_table.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/glist.h:
+
+tmat.h:
+
+hmm.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/listelem_alloc.h:
+
+s2_semi_mgau.h:
+
+ms_gauden.h:
+
+vector.h:
+
+pocketsphinx_internal.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/profile.h:
+
+../../include/pocketsphinx.h:
+
+../../include/ps_lattice.h:
+
+../../include/fsg_set.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/fsg_model.h:
+
+/cygdrive/d/lfl/Sphinx/pocketsphinx/../sphinxbase/include/sphinxbase/jsgf.h:
+
+dict.h:
+
+s3types.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/4.8.1/include/float.h:
+
+dict2pid.h:
+
+ptm_mgau.h:
+
+ms_mgau.h:
+
+ms_senone.h:

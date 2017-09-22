@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@color/white">
+
+<EditText android:id="@+id/EditText01" android:layout_width="fill_parent"
+	android:contentDescription="Recognition results"
+	android:layout_height="wrap_content" android:layout_weight="1"
+	android:hint="请输入姓名简拼："></EditText>
+
+<TextView android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:id="@+id/PerformanceText" 
+    		android:text="@string/performance_text" 
+    		android:layout_gravity="center_horizontal">
+</TextView>
+
+<Button android:id="@+id/Button01" 
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:layout_weight="0"
+	android:layout_gravity="center_horizontal" 
+	android:text="Hold and Speak">]
+</Button>
+
+
+<Button android:id="@+id/Button02" 
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:layout_weight="0"
+	android:layout_gravity="center_horizontal" 
+	android:onClick="onTestButtonClicked"
+	android:text="VCMD 模型识别率测试测试">]
+</Button>
+
+<!-- 
+
+<Button android:id="@+id/Button03" 
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:layout_weight="0"
+	android:layout_gravity="center_horizontal" 
+	android:onClick="onTestSphinxButtonClicked"
+	android:text="sphinx 模型识别率测试">]
+</Button>
+
+-->
+
+	<LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0"
+		        android:orientation="horizontal" >
+		        
+	    <TextView android:layout_width="wrap_content" 
+	    		android:layout_height="wrap_content" 
+	    		android:text="参数名：" 
+	    		android:layout_gravity="center_horizontal">
+		</TextView>
+		
+	    <EditText android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:id="@+id/edit_parameter_key_id"
+				android:textSize="10sp"
+				android:hint="/storage/sdcard0/Android/data/edu.cmu.pocketsphinx/android_test/test_CyVoiceE_config_android_">
+	    </EditText>
+	    
+	</LinearLayout>
+	
+	<LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0"
+		        android:orientation="horizontal" >
+		        
+	    <TextView android:layout_width="wrap_content" 
+	    		android:layout_height="wrap_content" 
+	    		android:text="参数值：" 
+	    		android:layout_gravity="center_horizontal">
+		</TextView>
+		
+	    <EditText android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:id="@+id/edit_parameter_value_id">
+	    </EditText>
+	    
+	</LinearLayout>>
+
+
+	<LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0"
+	        android:orientation="horizontal" >
+	        
+	    <Button android:id="@+id/Button_jsgf52" 
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_weight="1"
+		android:onClick="onTest_jsgf52ButtonClicked"
+		android:text="jsgf 52">
+		</Button>
+		
+	    <Button android:id="@+id/Button_jsgf100" 
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_weight="1"
+		android:onClick="onTest_jsgf100ButtonClicked"
+		android:text="jsgf 100">
+		</Button>
+		
+	    <Button android:id="@+id/Button_jsgf500" 
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_weight="1"
+		android:onClick="onTest_jsgf200ButtonClicked"
+		android:text="jsgf 200">
+		</Button>
+		
+	    <Button android:id="@+id/Button_jsgf1000" 
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_weight="1"
+		android:onClick="onTest_jsgf500ButtonClicked"
+		android:text="jsgf 500">
+		</Button>
+	    
+	</LinearLayout>
+
+ 
+	<LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0"
+	        android:orientation="horizontal" >
+	        
+	    <Button android:id="@+id/Button_ngram52" 
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_weight="1"
+		android:onClick="onTest_ngram52ButtonClicked"
+		android:text="ngram 52">
+		</Button>
+		
+	    <Button android:id="@+id/Button_ngram100" 
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_weight="1"
+		android:onClick="onTest_ngram100ButtonClicked"
+		android:text="ngram 100">
+		</Button>
+		
+	    <Button android:id="@+id/Button_jsgf500" 
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_weight="1"
+		android:onClick="onTest_ngram200ButtonClicked"
+		android:text="ngram 200">
+		</Button>
+		
+	    <Button android:id="@+id/Button_jsgf1000" 
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_weight="1"
+		android:onClick="onTest_ngram500ButtonClicked"
+		android:text="ngram 500">
+		</Button>
+	    
+	</LinearLayout>
+	
+	
+	<LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0"
+	        android:orientation="horizontal" >
+	        
+	    <Button android:id="@+id/Button_zts52" 
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_weight="1"
+		android:onClick="onTest_zts52ButtonClicked"
+		android:text="zts 52">
+		</Button>
+		
+	    <Button android:id="@+id/Button_zts100" 
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_weight="1"
+		android:onClick="onTest_zts100ButtonClicked"
+		android:text="zts 100">
+		</Button>
+		
+	    <Button android:id="@+id/Button_zts500" 
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_weight="1"
+		android:onClick="onTest_zts200ButtonClicked"
+		android:text="zts 200">
+		</Button>
+		
+	    <Button android:id="@+id/Button_zts1000" 
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_weight="1"
+		android:onClick="onTest_zts500ButtonClicked"
+		android:text="zts 500">
+		</Button>
+	    
+	</LinearLayout>
+ 
+</LinearLayout>

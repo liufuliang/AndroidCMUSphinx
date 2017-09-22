@@ -1,0 +1,20 @@
+[SYS00]
+HmmFile		= hmm
+GmmFile		= dnnf
+Network		= lm-2bo.rn
+
+LM_WEIGHT	= 8
+BEAM		= 145
+MAXMODEL	= 400
+MAXSCALEMODEL	= 700
+MAXHOTMODEL	= 600
+MAXSCALEHOTMODEL	= 1000
+useGS		= 0
+scale = 0.7
+shareAm = 0
+batch = 256
+OUTWEIGHT = 0.5
+writelattice = 	0
+HotArcBonus	= 1
+PPSCALE	= 12
+HotCmdThd = 150

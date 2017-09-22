@@ -1,0 +1,8 @@
+---- custom_flag Matches (8 in 5 files) ----
+Cmdln_macro.h (jni\pocketsphinx\include):	{ "-Custom_flag",                                   \
+Dict.c (jni\pocketsphinx\src\libpocketsphinx):	int custom_flag = (int)cmd_ln_int_r(config, "-Custom_flag");
+Dict.c (jni\pocketsphinx\src\libpocketsphinx):	if(custom_flag != 0)
+Fsg_search.c (jni\pocketsphinx\src\libpocketsphinx):	int custom_flag = (int)cmd_ln_int_r(config, "-Custom_flag");
+Fsg_search.c (jni\pocketsphinx\src\libpocketsphinx):		if((custom_flag == 1) || (custom_flag == 0))
+RecognizerTask.java (src\edu\cmu\pocketsphinx\demo):		c.setInt("-Custom_flag", 0);
+testModelJsgf.java (src\edu\cmu\pocketsphinx\demo):		c.setInt("-Custom_flag", 0);
